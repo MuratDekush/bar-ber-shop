@@ -1,3 +1,79 @@
+:root {
+--accient-color: #FF6C00;
+--text-color: rgba(157, 164, 189, 0.6);
+}
+
+
 body {
  font-family: "Open Sans", sans-serif;
+}
+.container{
+    background-image: url(./img/header.jpg);
+}
+.list-nav {
+display: flex;
+}
+.item-nav{
+    margin-right: 30px;
+}
+.contacts{
+    display: flex;
+}
+.nav{
+display: flex;
+padding-right: 20px;
+padding-left: 100px;
+padding-top: 40px;
+padding-bottom: 184px;
+}
+.link-nav:hover{
+    color: var(--accient-color);
+}
+.link-contact:hover{
+    color: var(--accient-color);
+}
+
+.item-contact{
+    padding-left: 254px;
+    padding-right: 40px;
+}
+.link-nav{
+    color: white;
+}
+.link-contact{
+      color: white;
+}
+.link-order:hover{
+    color: var(--accient-color);
+}
+.link-order{
+border: 1px solid #ff6c00;
+border-radius: 25px;
+font-weight: 600;
+font-size: 12px;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: white;
+width: 160px;
+height: 40px;
+}
+.info{
+    font-weight: 600;
+font-size: 11px;
+text-transform: uppercase;
+color: var(--text-color);
+}
+.title{
+    font-weight: 700;
+font-size: 72px;
+letter-spacing: 0.05em;
+color: #fff;
+}
+.about-work{
+    font-weight: 400;
+font-size: 18px;
+line-height: 167%;
+letter-spacing: 0.02em;
+color: #9da4bd;
+
 }
