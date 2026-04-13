@@ -4,6 +4,9 @@
 }
 
 
+.header-box{
+
+}
 body {
  font-family: "Open Sans", sans-serif;
 }
@@ -135,4 +138,10 @@ color: #555;
 }
 
 
-
+.order-online{
+    font-weight: 600;
+font-size: 12px;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: #303030;
+}
