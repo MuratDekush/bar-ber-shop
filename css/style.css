@@ -3,7 +3,12 @@
 --text-color: rgba(157, 164, 189, 0.6);
 }
 
-
+.header{
+    padding-right: 20px;
+padding-left: 100px;
+padding-top: 40px;
+padding-bottom: 184px;
+}
 .header-box{
 
 }
@@ -13,7 +18,7 @@ body {
 .container{
     background-image: url(./img/header.jpg);
     background-repeat: no-repeat;
-    background-size: 1070px 680px;
+    background-size: cover;
 }
 .list-nav {
 display: flex;
@@ -23,13 +28,12 @@ display: flex;
 }
 .contacts{
     display: flex;
+    margin-left: auto;
+    gap: 40px;
 }
 .nav{
 display: flex;
-padding-right: 20px;
-padding-left: 100px;
-padding-top: 40px;
-padding-bottom: 184px;
+margin-bottom: 184px;
 }
 .link-nav:hover{
     color: var(--accient-color);
@@ -63,6 +67,9 @@ width: 160px;
 height: 40px;
 padding: 12px 20px 12px 20px;
 }
+li:last-child{
+    margin-right: 0;
+}
 .info{
     font-weight: 600;
 font-size: 11px;
@@ -74,7 +81,7 @@ font-weight: 700;
 font-size: 72px;
 letter-spacing: 0.05em;
 color: #fff;
-padding: 20px 0 20px 0;
+margin: 20px 0 20px 0;
 }
 .about-work{
     font-weight: 400;
@@ -83,15 +90,19 @@ line-height: 167%;
 letter-spacing: 0.02em;
 color: #9da4bd;
 width: 357px;
-height: 60px;
 }
 
 .info-box{
-width: 444px;
-height: 200px;
+
 padding-left: 100px;
 margin-bottom: 144px;
 
+}
+
+.moving{
+display: flex;
+justify-content: end;
+margin-bottom: 40px;
 }
 
 .back{
@@ -100,6 +111,7 @@ font-size: 11px;
 letter-spacing: 0.1em;
 color: rgba(157, 164, 189, 0.6);
 padding-right: 24px;
+text-align: right;
 }
 .forward{
     font-weight: 600;
