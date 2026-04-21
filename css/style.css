@@ -254,16 +254,28 @@ color: #fff;
 }
 
 .prices{
-    display: flex;
+
+
 }
 .haircut-price:after{
     content: "";
     display:block ;
     background: rgba(157, 164, 189, 0.12);
-   height: 262px;
    width: 1px;
 }
 .item-price{
     width: 570px;
 height: 240px;
+display: flex;
+justify-content: space-between;
+}
+.item-prices{
+    font-weight: 400;
+font-size: 18px;
+line-height: 167%;
+letter-spacing: 0.02em;
+color: #9da4bd;
+}
+.price-ul{
+    display: flex;
 }
