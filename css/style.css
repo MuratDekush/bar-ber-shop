@@ -1,10 +1,5 @@
-:root {
---accient-color: #FF6C00;
---text-color: rgba(157, 164, 189, 0.6);
-}
-
 .header{
-padding-top: 40px;
+    padding-top: 40px;
     background-image: url(../img/header.jpg);
     background-repeat: no-repeat;
     background-size: 1200px 680px;
@@ -213,13 +208,12 @@ height: 40px;
     gap: 20px;
     margin-bottom: 20px;
 }
-.info-sub-text:before{
+.info-sub-text::before{
         content: "";
     display: block;
     width: 60px;
     height: 1px;
     background-color: gray;
- 
 }
 
 .price-sub-text{
@@ -245,6 +239,12 @@ font-size: 12px;
 letter-spacing: 0.09em;
 text-transform: uppercase;
 color: #fff;
+border: 1px solid #ff6c00;
+border-radius: 25px;
+width: 160px;
+height: 40px;
+margin-left: 500px;
+margin-bottom: 110px;
 }
 .price{
     background-image: url(../img/bck-price.jpg);
@@ -265,17 +265,33 @@ color: #fff;
 }
 .item-price{
     width: 570px;
-height: 240px;
-display: flex;
-justify-content: space-between;
+
+
 }
-.item-prices{
+.haircut-price{
     font-weight: 400;
 font-size: 18px;
 line-height: 167%;
 letter-spacing: 0.02em;
 color: #9da4bd;
 }
+.item-prices{
+display: flex;
+justify-content: space-between;
+
+}
+
+.price-haircut{
+    font-weight: 400;
+font-size: 18px;
+line-height: 167%;
+letter-spacing: 0.02em;
+text-align: right;
+color: #9da4bd;
+}
 .price-ul{
-    display: flex;
+display: flex;
+gap: 30px;
+padding-bottom: 44px;
+
 }
