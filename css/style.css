@@ -213,7 +213,7 @@ height: 40px;
     display: block;
     width: 60px;
     height: 1px;
-    background-color: gray;
+    background: rgba(157, 164, 189, 0.6);
 }
 
 .price-sub-text{
@@ -223,6 +223,17 @@ text-transform: uppercase;
 color: rgba(157, 164, 189, 0.6);
 padding-top: 120px;
 padding-bottom: 20px;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.price-sub-text::before{
+            content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: rgba(157, 164, 189, 0.6);
 }
 
 .price-title{
@@ -245,17 +256,28 @@ width: 160px;
 height: 40px;
 margin-left: 500px;
 margin-bottom: 110px;
+background-color: transparent;
 }
 .price{
-    background-image: url(../img/bck-price.jpg);
+    background-image: linear-gradient(rgba(17, 19, 25, 0.7),rgba(17, 19, 25, 0.7)) ,url(../img/bck-price.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .prices{
+width: 570px;
+padding: 30px 21px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
+}
+.prices:nth-child(1){
 
-
+}
+.price-item .prices{
+background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
 }
 .haircut-price:after{
     content: "";
@@ -293,5 +315,87 @@ color: #9da4bd;
 display: flex;
 gap: 30px;
 padding-bottom: 44px;
+}
 
+.people .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.people{
+    padding-bottom:120px ;
+    padding-top: 120px;
+}
+.people-sub-text{
+    font-weight: 600;
+font-size: 11px;
+text-transform: uppercase;
+color: #303030;
+width: 226px;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.people-sub-text::before{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+background: #303030;
+}
+
+.people-title{
+    font-weight: 700;
+font-size: 42px;
+letter-spacing: 0.05em;
+color: #303030;
+padding-bottom: 20px;
+width: 430px;
+margin-top: 20px;
+margin-bottom:20px ;
+font-family: Raleway;
+}
+.people-info{
+    font-weight: 400;
+font-size: 18px;
+line-height: 167%;
+letter-spacing: 0.02em;
+color: #555;
+width: 500px;
+}
+
+.people-box{
+    width: 170px;
+height: 133px;
+background: #f7f7f7;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.number-of-people{
+    font-weight: 700;
+font-size: 42px;
+letter-spacing: 0.05em;
+text-align: center;
+color: #303030;
+padding-top:20px ;
+padding-right: 45px;
+padding-left: 45px;
+padding-bottom: 6px;
+}
+
+.people-about-us{
+    font-weight: 600;
+font-size: 11px;
+text-align: center;
+color: #303030;
+width: 122px;
+
+}
+.people-ul{
+display: flex;
+gap: 30px;
+flex-wrap:wrap ;
+width: 370px;
+order: -1;
 }
