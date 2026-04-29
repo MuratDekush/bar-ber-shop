@@ -399,3 +399,50 @@ flex-wrap:wrap ;
 width: 370px;
 order: -1;
 }
+
+.barbers-info-list{
+display: flex;
+gap: 30px;
+
+}
+.employee-text{
+    font-weight: 600;
+font-size: 11px;
+text-transform: uppercase;
+color: #303030;
+}
+
+.employee-text::before{
+content: "";
+display: block;
+width: 1px;
+height: 60px;
+}
+
+.employee-berbers{
+    padding-top:20px;
+    padding-bottom: 44px;
+    font-weight: 700;
+font-size: 42px;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.barbers-name {
+    padding-top: 30px;
+    font-weight: 400;
+font-size: 18px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #303030;
+}
+
+.barbers-info{
+    padding-top: 8px;
+    padding-bottom: 30px;
+    font-weight: 400;
+font-size: 14px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ff6c00;
+}
