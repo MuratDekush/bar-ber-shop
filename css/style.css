@@ -446,3 +446,17 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #ff6c00;
 }
+
+.icon{
+
+}
+.ul-icon{
+display: flex;
+
+}
+.item-icon{
+    
+}
+.icon:hover{
+fill: #ff6c00;
+}
