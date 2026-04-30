@@ -415,13 +415,13 @@ color: #303030;
 .employee-text::before{
 content: "";
 display: block;
-width: 1px;
-height: 60px;
+width: 60px;
+height: 1px;
 }
 
 .employee-berbers{
-    padding-top:20px;
-    padding-bottom: 44px;
+    margin-top:20px;
+    margin-bottom: 44px;
     font-weight: 700;
 font-size: 42px;
 letter-spacing: 0.05em;
@@ -429,7 +429,7 @@ color: #303030;
 }
 
 .barbers-name {
-    padding-top: 30px;
+    margin-top: 30px;
     font-weight: 400;
 font-size: 18px;
 letter-spacing: 0.02em;
@@ -438,8 +438,8 @@ color: #303030;
 }
 
 .barbers-info{
-    padding-top: 8px;
-    padding-bottom: 30px;
+    margin-top: 8px;
+    margin-bottom: 30px;
     font-weight: 400;
 font-size: 14px;
 letter-spacing: 0.02em;
