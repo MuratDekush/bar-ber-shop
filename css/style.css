@@ -6,15 +6,11 @@
     background-position: center top;
     padding-bottom: 40px;
 }
-.header-box{
 
-}
 body {
  font-family: "Open Sans", sans-serif;
 }
-.container{
 
-}
 .list-nav {
 display: flex;
 }
@@ -405,11 +401,19 @@ display: flex;
 gap: 30px;
 
 }
+.employees{
+    background: #f7f7f7;
+    padding-top: 120px;
+padding-bottom: 120px;
+}
 .employee-text{
     font-weight: 600;
 font-size: 11px;
 text-transform: uppercase;
 color: #303030;
+display: flex;
+align-items: center;
+gap: 7px;
 }
 
 .employee-text::before{
@@ -417,6 +421,7 @@ content: "";
 display: block;
 width: 60px;
 height: 1px;
+background-color: gray;
 }
 
 .employee-berbers{
@@ -459,4 +464,88 @@ display: flex;
 }
 .icon:hover{
 fill: #ff6c00;
+}
+
+.list-social-networks{
+    display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.link-social-networks{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content:center ;
+align-items: center;
+}
+
+.photo-text{
+    font-weight: 600;
+font-size: 11px;
+text-transform: uppercase;
+color: #303030;
+margin-bottom: 44px;
+display: flex;
+align-items: center;
+gap: 7px;
+}
+.photo-text::before{
+    content: "";
+    width: 60px;
+height: 1px;
+display: block;
+background-color: gray;
+}
+
+.img-photo{
+width: 270px;
+height: 360px;
+}
+.photo{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.ul-photo{
+    display: flex;
+    gap: 30px;
+}
+.title-contacts{
+    font-weight: 700;
+font-size: 42px;
+letter-spacing: 0.05em;
+color: #fff;
+}
+
+.text-contacts{
+    font-weight: 600;
+font-size: 11px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: rgba(157, 164, 189, 0.4);
+background-color: transparent;
+border: none;
+border-bottom: 1px solid;
+}
+.gmailcontacts{
+    font-weight: 600;
+font-size: 11px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: rgba(157, 164, 189, 0.4);
+}
+
+.link-contacts{
+    font-weight: 700;
+font-size: 18px;
+line-height: 167%;
+letter-spacing: 0.02em;
+color: #9da4bd;
+}
+
+.contacts{
+    background: #191c26;
 }
