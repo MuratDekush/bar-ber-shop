@@ -529,13 +529,15 @@ color: rgba(157, 164, 189, 0.4);
 background-color: transparent;
 border: none;
 border-bottom: 1px solid;
+width: 270px;
 }
-.gmailcontacts{
+.gmail-contacts{
     font-weight: 600;
 font-size: 11px;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 color: rgba(157, 164, 189, 0.4);
+width: 570px;
 }
 
 .link-contacts{
@@ -548,4 +550,40 @@ color: #9da4bd;
 
 .contacts{
     background: #191c26;
+}
+
+.container-contacts{
+display: flex;
+}
+
+.form-contacts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button-contacts{
+    font-weight: 600;
+font-size: 12px;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+background:none;
+border: 1px solid #ff6c00;
+border-radius: 25px;
+width: 160px;
+
+}
+
+.text-hours{
+    font-weight: 600;
+font-size: 11px;
+text-transform: uppercase;
+color: #fff;
+}
+.text-info-hours{
+    font-weight: 400;
+font-size: 18px;
+line-height: 167%;
+letter-spacing: 0.02em;
+color: #9da4bd;
 }
