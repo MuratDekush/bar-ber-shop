@@ -555,6 +555,9 @@ color: #9da4bd;
 .container-contacts{
 display: flex;
 }
+.contact-box{
+        gap: 44px;
+}
 
 .form-contacts{
     display: flex;
