@@ -560,6 +560,9 @@ border: none;
 border-bottom: 1px solid;
 width: 270px;
 }
+.text-contacts:hover{
+    color: white;
+}
 
 .text-contacts[placeholder="Name*"]{
 margin-right: 30px;
@@ -662,4 +665,37 @@ font-size: 18px;
 line-height: 167%;
 letter-spacing: 0.02em;
 color: #9da4bd;
+}
+
+.footer-soc{
+    font-weight: 600;
+font-size: 11px;
+letter-spacing: 0.2em;
+color: #303030;
+}
+.footer-text{
+    font-weight: 600;
+font-size: 11px;
+letter-spacing: 0.2em;
+color: #9da4bd;
+}
+
+
+.footer-ul{
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+}
+
+.footer-item{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.footer-item:first-child:before{
+    content: "";
+    width: 60px;
+height: 1px;
+display: block;
+background-color: gray;
 }
