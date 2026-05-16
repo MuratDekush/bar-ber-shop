@@ -17,7 +17,7 @@ display: flex;
 .item-nav{
     margin-right: 30px;
 }
-.contacts{
+.contacts-list{
     display: flex;
     margin-left: auto;
     gap: 40px;
@@ -65,7 +65,7 @@ li:last-child{
     font-weight: 600;
 font-size: 11px;
 text-transform: uppercase;
-color: var(--text-color);
+color: rgba(157, 164, 189, 0.6);
 display: flex;
 align-items: center;
 gap: 7px;
@@ -688,7 +688,7 @@ color: #9da4bd;
 }
 
 .footer-item{
-    display: flex;
+        display: flex;
     gap: 40px;
     align-items: center;
 }
@@ -698,4 +698,15 @@ color: #9da4bd;
 height: 1px;
 display: block;
 background-color: gray;
+}
+
+.footer{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.footer-box{
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
